@@ -1,5 +1,7 @@
 # paper-rubric-review
 
+> English | [中文版](./README.zh.md)
+
 A 10-dimension scoring rubric for STEM papers, with two radar charts and a self-review workflow that has been stress-tested against the rubric's own past mistakes.
 
 ## What this is
