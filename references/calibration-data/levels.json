@@ -1,0 +1,42 @@
+{
+  "registry_version": "1.0",
+  "last_updated": "2026-08-27",
+  "description": "Registry of empirical reference levels for paper-rubric-review. Each level is a JSON file containing the score distribution of n papers that achieved a defined external milestone (e.g., accepted to a specific journal volume). Levels are NOT tier predictions — they are observational reference data so a scored paper can be compared to the empirical distribution of papers known to have hit that milestone.",
+
+  "levels": [
+    {
+      "level_id": "ysa10-stem",
+      "level_name_en": "YSA Yuanpei Young Scholars Journal Vol.10 (April 2026) — STEM",
+      "level_name_zh": "YSA 元培青年学者期刊 第 10 期 (2026 年 4 月) — STEM 方向",
+      "data_file": "ysa10-stem.json",
+      "n_papers": 12,
+      "milestone_type": "accepted_publication",
+      "milestone_venue": "high_school_journal",
+      "added_on": "2026-08-27",
+      "added_by_session": "mvs_2bc68e5bf69f436786c8c28b63d1ff83",
+      "summary": {
+        "total_median": 65.5,
+        "total_iqr": [59.0, 70.3],
+        "total_range": [56.5, 76.4],
+        "dim_8_reproducibility_median": 52.5
+      }
+    }
+  ],
+
+  "how_to_add_new_level": {
+    "steps": [
+      "1. Score n>=5 papers that share a specific external milestone (e.g., accepted to Vol.X of journal Y) using the paper-rubric-review protocol.",
+      "2. Compute per-dim statistics (min, q1, median, mean, q3, max, std) and macro stats (research, paper, potential) and total.",
+      "3. Save as JSON following the schema in ysa10-stem.json (or use the script in scripts/build-calibration.py).",
+      "4. Add a new entry to this registry with: level_id, level_name, n_papers, milestone_type, summary.",
+      "5. Document provenance: who scored, when, protocol version, noise estimate."
+    ],
+    "minimum_n_recommendation": "n>=5 for any usable IQR. n>=10 for stable medians. n>=20 for cross-year stability.",
+    "honest_framing_rules": [
+      "NEVER use 'tier X is the threshold' language. Always say 'level X contains papers that achieved milestone M'.",
+      "NEVER extrapolate beyond observed data (no 'X score means Yau gold' — no Yau calibration exists).",
+      "Always include the noise estimate (±8 points) when showing comparisons.",
+      "Always disclose the selection process (e.g., 'all 12 STEM papers in Vol.10' — not 'top STEM papers')."
+    ]
+  }
+}

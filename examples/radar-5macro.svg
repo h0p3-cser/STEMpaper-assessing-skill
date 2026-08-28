@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 580" width="550" height="580">
+  <rect width="550" height="580" fill="#fafafa"/>
+  <text x="275" y="20" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">5-Macro Radar (example)</text>
+  <polygon points="275.0,255.0 322.6,289.5 304.4,345.5 245.6,345.5 227.4,289.5" fill="none" stroke="#d4d4d8" stroke-width="1"/>
+  <polygon points="275.0,205.0 370.1,274.1 333.8,385.9 216.2,385.9 179.9,274.1" fill="none" stroke="#d4d4d8" stroke-width="1"/>
+  <polygon points="275.0,155.0 417.7,258.6 363.2,426.4 186.8,426.4 132.3,258.6" fill="none" stroke="#d4d4d8" stroke-width="1"/>
+  <polygon points="275.0,105.0 465.2,243.2 392.6,466.8 157.4,466.8 84.8,243.2" fill="none" stroke="#d4d4d8" stroke-width="1"/>
+  <line x1="275" y1="305" x2="275.0" y2="105.0" stroke="#d4d4d8" stroke-width="1"/>
+  <line x1="275" y1="305" x2="465.2" y2="243.2" stroke="#d4d4d8" stroke-width="1"/>
+  <line x1="275" y1="305" x2="392.6" y2="466.8" stroke="#d4d4d8" stroke-width="1"/>
+  <line x1="275" y1="305" x2="157.4" y2="466.8" stroke="#d4d4d8" stroke-width="1"/>
+  <line x1="275" y1="305" x2="84.8" y2="243.2" stroke="#d4d4d8" stroke-width="1"/>
+  <polygon points="275.0,161.4 415.4,259.4 355.3,415.5 175.1,442.5 122.8,255.6" fill="rgba(37, 99, 235, 0.18)" stroke="#2563eb" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="275.0" cy="161.4" r="3.5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+  <circle cx="415.4" cy="259.4" r="3.5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+  <circle cx="355.3" cy="415.5" r="3.5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+  <circle cx="175.1" cy="442.5" r="3.5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+  <circle cx="122.8" cy="255.6" r="3.5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+  <text x="275.0" y="76.0" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">学术价值</text>
+  <text x="275.0" y="92.0" text-anchor="middle" font-size="12" font-weight="700" fill="#2563eb">71.8 / 100</text>
+  <text x="489.0" y="231.5" text-anchor="start" font-size="13" font-weight="600" fill="#1f2937">方法严谨</text>
+  <text x="489.0" y="247.5" text-anchor="start" font-size="12" font-weight="700" fill="#2563eb">73.8 / 100</text>
+  <text x="407.3" y="483.0" text-anchor="start" font-size="13" font-weight="600" fill="#1f2937">论文表达</text>
+  <text x="407.3" y="499.0" text-anchor="start" font-size="12" font-weight="700" fill="#2563eb">68.3 / 100</text>
+  <text x="142.7" y="483.0" text-anchor="end" font-size="13" font-weight="600" fill="#1f2937">证据强度</text>
+  <text x="142.7" y="499.0" text-anchor="end" font-size="12" font-weight="700" fill="#2563eb">85.0 / 100</text>
+  <text x="61.0" y="231.5" text-anchor="end" font-size="13" font-weight="600" fill="#1f2937">问题价值</text>
+  <text x="61.0" y="247.5" text-anchor="end" font-size="12" font-weight="700" fill="#2563eb">80.0 / 100</text>
+  <text x="279.0" y="258.0" font-size="9" fill="#a1a1aa">25</text>
+  <text x="279.0" y="208.0" font-size="9" fill="#a1a1aa">50</text>
+  <text x="279.0" y="158.0" font-size="9" fill="#a1a1aa">75</text>
+  <text x="279.0" y="108.0" font-size="9" fill="#a1a1aa">100</text>
+</svg>
